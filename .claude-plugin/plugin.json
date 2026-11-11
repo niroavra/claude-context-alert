@@ -1,0 +1,9 @@
+{
+  "name": "context-alert",
+  "version": "1.0.0",
+  "description": "Stops you when a Claude Code conversation gets expensive: an alert at 100K, 200K and 400K tokens, and when you return to a big conversation after the prompt cache expired, with three choices (fresh session with a handover, /compact, continue).",
+  "author": { "name": "NiroX", "url": "https://nirox.io" },
+  "homepage": "https://nirox.io",
+  "license": "MIT",
+  "keywords": ["context", "tokens", "cost", "usage", "hooks", "compact"]
+}

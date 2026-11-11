@@ -1,0 +1,11 @@
+{
+  "name": "nirox",
+  "owner": { "name": "NiroX", "url": "https://nirox.io" },
+  "plugins": [
+    {
+      "name": "context-alert",
+      "source": "./",
+      "description": "An alert inside the conversation when it gets expensive, with three choices: fresh session with a handover, /compact, or continue."
+    }
+  ]
+}
