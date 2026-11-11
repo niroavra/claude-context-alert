@@ -10,7 +10,7 @@ The cost of a Claude Code conversation is its size and its lifetime, not the siz
 
 - Every step re-reads the whole conversation from the prompt cache. A small edit at 400K tokens costs several times the same edit in a fresh conversation.
 - The prompt cache expires. Come back to a big conversation after a break and the whole thing is written into the cache again, at full price.
-- Nothing tells you when it happens. You find out from the bill, or when the weekly limit runs out on Wednesday.
+- Nothing tells you when it happens. You find out from the bill, or when the weekly limit runs out mid-week.
 
 We measured one week of our own work: 39 of 49 conversations passed 200K tokens, and 13 passed 500K. Ordinary conversations cost nine times more than all our scheduled automations together.
 
